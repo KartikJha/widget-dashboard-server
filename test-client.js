@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client'
 // import * as socketIo from 'socket.io';
 
-const socket = io('http://localhost:5000', {
+const socket = io('https://engaging-weevil-preferably.ngrok-free.app', {
     auth: {
         token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MzhkMTI4ZDI4ODczOGY1N2RjZDFjMyIsInVzZXJuYW1lIjoidGVzdHVzZXIiLCJpYXQiOjE3MzE3ODI3NjUsImV4cCI6MTczMTc4NjM2NX0.vLXuvKiPG8xzS4CsMXV-EW3DoLx_GDM-2qepaAbG1dI' 
     }
